@@ -1,0 +1,501 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.navbar img {
+  margin-top: 0;
+  margin-right: 65px;
+}
+
+div.nav1
+{
+  position: relative;
+}
+.fixed{
+ 
+ position: fixed;
+ padding: 0px;
+ z-index: 3;
+ top: 0;
+   
+}
+div.navbar {
+  display: inline-flex;
+  margin-top: 0;
+  margin: 0px;
+  width: 100%;
+  background: white;
+  margin-bottom: 0px;
+  border-bottom:0.5px ridge rgb(175, 170, 170);
+}
+.navbar ul{
+  text-align: center;
+margin-left: 0px;
+margin-bottom: 0;
+display: inline-flex;
+list-style: none;
+color:black;
+}
+.navbar ul li {
+  width: 180px;
+  margin: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.navbar ul li.menu0{
+  width: 120px;
+}
+.navbar ul li.menu1{
+  width: 100px;
+}
+.navbar ul li.menu2{
+  width: 120px;
+}
+.navbar ul li.menu3{
+  width: 140px;
+}
+.navbar ul li.menu4{
+  width: 170px;
+}
+.navbar ul li.menu5{
+  width: 130px;
+}
+.navbar ul li.menu6{
+  width: 100px;
+}
+.navbar ul li.menu7{
+  width: 100px;
+}
+.navbar ul li.menu8{
+  width: 100px;
+}
+.navbar ul li.menu9{
+  width: 100px;
+}
+
+
+
+.navbar ul li a{
+
+  display: inline-block;
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+.navbar ul li a:hover{
+  color: red ;
+  border-radius: 5px;
+}
+
+.silkmenu{
+  display: none;
+  float: left;
+  }
+.navbar ul li:hover .silkmenu{
+
+  float: left;
+  border-top:1px solid black;
+  display: block;
+   position: absolute;
+  background:  white;
+  margin-top: 30px;
+margin-right: 200px;
+  width: 1200px;
+  height: 400px;
+  
+}
+.navbar ul li:hover .silkmenu .silk_submenu{
+  display: inline-flex;
+
+}
+
+.navbar ul li:hover .silkmenu .silk_submenu .inside{
+ float: left;
+  margin-top: 60px;
+  margin-left: 0px;
+  width: 200px;
+ display: inline-flex;
+}
+.navbar ul li:hover .silkmenu .silk_submenu .inside ul{
+  display: block;
+}
+.navbar ul li:hover .silkmenu .silk_submenu .inside ul li.hover_title{
+ font-size: medium;
+}
+.navbar ul li:hover .silkmenu .silk_submenu .inside ul li{
+
+  display: block;
+  width: 100px;
+  padding: 1px;
+  margin: 10px;
+  border-radius: 0%;
+  background: transparent;
+  text-align: left;
+}
+
+
+
+
+
+
+.submenu1{
+  display: none;
+}
+
+.navbar form  h1:hover .submenu1{
+  z-index: 1;
+  display: block;
+  position: absolute;
+  background:white;
+  margin-top: 39px;
+  padding: 12px;
+border-radius: 8px;
+width: 320px;
+height: 360px;
+margin-right: 120px;
+text-align: center;
+font-style: italic;
+}
+
+.navbar form  h1:hover .submenu1 form{
+display: block;
+}
+
+.navbar form  h1:hover .submenu1 form span{
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+
+.navbar form  h1:hover .submenu1 input{
+  border-radius: 4px;
+  margin: 20px;
+  width: 240px;
+  margin-top: 12px;
+  height: 40px;
+}
+
+.navbar form  h1:hover .submenu1 button {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+ 
+  background-color: #542d5f;
+}
+.navbar form  h1:hover .submenu1 button a{
+  color: white;
+}
+
+
+div.cart  {
+  margin-top: 0; 
+  margin-right:10px ;
+  margin-left: 1150px;
+  bottom: 65px;
+  border-left: 2px solid black ;
+   position: absolute;
+ }
+ 
+ span.badge{
+   position: absolute;
+   margin-right: 20px;
+   background-color: red;
+ }
+ 
+ div.cart i{
+   margin-top: 4px;
+   margin-left: 40px;
+   cursor: pointer;
+   color :black;
+  
+ }
+ div.cart i:hover{
+  color: red;
+ }
+
+.navbar form.example{
+  display: inline-flex;
+ 
+}
+/* Style the search field */
+ form.example input.search {
+ 
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid black ;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  float: left;
+  width: 650px;
+  height: 50px;
+  background: white;
+}
+
+/* Style the submit button */
+.top form.example button.search {
+  margin-top: 20px;
+  margin-right: 50px;
+  float: left;
+  width: 50px;
+  padding: 10px;
+  background: #542d5f;
+  color: white;
+  font-size: 17px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 1px solid black ;
+  height: 50px;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.navbar h1.login{
+  float: left;
+  display: inline-flex;
+  width: 150px;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.navbar h1.login span.menu1{
+  font-size: small;
+  padding-right: 50px;
+  margin-left: 15px;
+  width: 150px;
+}
+.navbar h1.login span.menu2{
+  font-size: large;
+  width: 150px;
+}
+
+.navbar h1 a{
+  
+  text-decoration: none;
+  color: black;
+}
+
+.navbar h1 a:hover .submenu{
+color: black;
+
+}
+
+.cart {
+ float: right;
+ margin-top: 40px;
+margin-left: 50px;
+
+
+}
+.cart i{
+
+    margin-left: 60px;
+  }
+  .cart span{
+   background-color:  #542d5f;
+   width: 22px;
+   border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer */
+
+.footer{
+  display: inline-flex;
+width: 100%;
+height: 600px;
+background-color: blanchedalmond;
+bottom: 0;
+}
+.footer .about1 .aboutus ul  li a:hover{
+  color: red;
+}
+.footer .about1 .aboutus2 ul  li a:hover{
+  color: red;
+}
+.footer .about2 .aboutus ul  li a:hover{
+  color: red;
+}
+.footer .about3 .aboutus ul  li a:hover{
+  color: red;
+}
+.footer .about4 .aboutus ul  li a:hover{
+  color: red;
+}
+
+
+.footer .about1{
+  width: 200px;
+  margin-top: 100px;
+  height: 200px;
+  font-size: medium;
+}
+.footer .about1 aboutus2{
+  width: 200px;
+  margin-top: 100px;
+  height: 0px;
+  font-size: medium;
+}
+
+
+
+
+
+.footer .about2{
+  width: 300px;
+  margin: 50px;
+  margin-top: 100px;
+  height: 300px;
+  font-size: medium;
+}
+.footer .about2 .aboutus{
+  width: 400px;
+
+
+}
+
+
+
+.footer .about3{
+  width: 400px;
+  margin-top: 100px;
+  height: 300px;
+  font-size: medium;
+}
+
+
+
+.footer .about3 .followus ul{
+
+  list-style: none;
+
+}
+.footer .about3 .followus ul li{
+ margin-top: 100px;
+ display: inline-flex;
+ margin-left: 15px;
+
+}
+.footer .about4 .followus ul{
+ list-style: none;
+}
+.footer .about4 .followus ul li{
+  margin-top: 150px;
+  display: inline-flex;
+ 
+ }
+
+
+.footer .about4{
+
+  width: 380px;
+  margin-top: 100px;
+  height: 300px;
+  font-size: medium;
+}
+.footer .about4 .aboutus{
+  width: 380px;
+  height: 250px;
+}
+.footer .about4 .aboutus input{
+  border-radius: 2px;
+  width: 250px;
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 4px;
+  border: 0.2px;
+}
+.footer .about4 .aboutus button{
+  color:white;
+  background-color: orangered;
+  border: 0.6px;
+  margin-left: 8px;
+  height: 36px;
+  width: 76px;
+ 
+}
+
+
+
+.footer .aboutus{
+  margin-top: 200px;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+
+}
+.footer .aboutus ul{
+
+  list-style: none;
+}
+.footer .aboutus ul li.company_name{
+  font-size: large;
+  font-style: italic;
+}
+.footer .aboutus ul li{
+  margin: 10px;
+}
+.footer .aboutus ul li a{
+
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+.footer .aboutus2{
+  margin-top: 200px;
+  width: 300px;
+  height:0;
+  margin: 10px;
+
+}
+.footer .aboutus2 ul{
+
+  list-style: none;
+}
+.footer .aboutus2 ul li.company_name{
+  font-size: large;
+  font-style: italic;
+}
+.footer .aboutus2 ul li{
+  margin: 10px;
+}
+.footer .aboutus2 ul li a{
+
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}

@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(250, 184, 194);
+    display: block;
+ 
+}
+
+
+
+/*body
+
+details
+
+*/
+
+
+
+div.collection h1{
+
+  font-size: 20px;
+  margin-top: 0px;
+ text-align: center;
+}
+div.collections_kanji{
+  
+  display: inline-flex;
+  margin-left: 170px;
+
+  text-align: center;
+  
+}
+div.collections_kanji .img_details{
+  text-align: center;
+  width: 180px;
+  height: 300px;
+  margin-left: 50px;
+  
+}
+div.collections_kanji .img_details a{
+  text-decoration: none;
+  color: black;
+}
+div.collections_kanji .img_details a:hover{
+  color: red;
+}
+
+div.collections_kanji .img_details span{
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 200px;
+}
+
+
+div.collections_kanji img{
+  width: 180px;
+  height: 180px;
+  margin-top: 100px;
+  margin-left: 18px;
+  margin-right: 18px;
+
+  
+ border-radius:100px;
+
+}
+div.collections_kanji img:hover{
+
+  transform: scale(1.1);
+
+}
+div.collections_banarasi{
+  
+  display: inline-flex;
+  margin-left: 0px;
+  text-align: center;
+  
+}
+div.collections_banarasi .img_details{
+  text-align: center;
+  width: 180px;
+  height: 300px;
+  margin-left: 35px;
+  
+}
+div.collections_banarasi .img_details a{
+  text-decoration: none;
+  color: black;
+}
+div.collections_banarasi .img_details a:hover{
+  color: red;
+}
+
+div.collections_banarasi .img_details span{
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 200px;
+}
+
+
+div.collections_banarasi img{
+  width: 180px;
+  height: 180px;
+  margin-top: 100px;
+  margin-left: 18px;
+  margin-right: 18px;
+
+  
+ border-radius:100px;
+
+}
+div.collections_banarasi img:hover{
+
+  transform: scale(1.1);
+
+}
+
+
+div.collections_kanji centre{
+
+  font-size:15px;
+}
+div.banarasi h1{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 100px;
+
+}
+div.banarasi img{
+  margin-top: 30px;
+  margin-left: 35px;
+
+  
+ border-radius: 85px;
+}
+div.banarasi img:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+div.our_brands h1{
+   margin-left: 23px;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+
+
+.ourbrands{
+ display: inline-flex;
+ position: inherit;
+
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-left: 100px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: transparent;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
